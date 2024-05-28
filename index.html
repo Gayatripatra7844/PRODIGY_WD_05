@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="weather-info">
+            <div id="location" class="location hidden">Allow Location or Search For a City</div>
+            <div id="date" class="date hidden">Date</div>
+            <div id="greeting" class="greeting hidden">Good Morning</div>
+            <div class="current-weather hidden">
+                <div id="current-temp" class="current-temp">Temp°</div>
+                <div class="details">
+                    <div id="current-time" class="current-time">Time</div>
+                    <div id="feels-like" class="feels-like"> Feels like </div>
+                    <div id="current-description" class="current-description">weather desc</div>
+                </div>
+            </div>
+            <div class="additional-info hidden">
+                <div id="wind-speed" class="wind-speed">speed</div>
+                <div id="humidity" class="humidity">humidity</div>
+                <div id="current-weather" class="current-weather">current-weather</div>
+            </div>
+            <div class="forecast hidden">
+                <div id="daily-forecast" class="daily-forecast">
+                    <!-- Daily forecast cards will be inserted here -->
+                </div>
+                <div id="hourly-forecast-container" class="hourly-forecast-container">
+                    <!-- Hourly forecast cards will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
