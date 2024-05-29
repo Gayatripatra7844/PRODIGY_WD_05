@@ -23,8 +23,7 @@ This project is a simple web page that fetches weather data from a weather API b
 2. Axios: A popular promise-based HTTP client for making API requests.
 3. Node.js & Express (Optional): If server-side processing or API proxying is required, Node.js and Express can be used to set up a backend server.
 4. Local Storage: To store user preferences or recent searches, enhancing the user experience.
-   # page is live at
-https://gayatripatra7844.github.io/PRODIGY_WD_05/
+   
 
 
 view page demo 
